@@ -1,0 +1,295 @@
+<div name='navbar' class="columns-3" style="height: 5%; margin-bottom:40px; justify-content: flex-end" >
+
+    <img src="JK-logo-black-transparent.png" style="height: 40px; margin-top: 11;"> </img>
+
+    <div class="columns-3" style="justify-content: flex-end">
+        <h3 style="margin-right:10px">Consulting</h3>
+        <h3 style="margin-right:10px">Publications</h3>
+        <h3 style="margin-right:10px">Media</h3>
+        <h3>Students</h3>
+    </div>
+</div>
+
+
+<div class="main"> 
+    
+    <div class="left">
+        
+    </div>
+
+    <div class="right">
+        <div> 
+            <h3>PhD candidate</h3>
+            <h1>Kate Beckett </h1>
+            <h2 style="margin-bottom:30px">"The importance of being earnest in the multipolar world: a comparative study" </h2>
+            <ul>
+                <li class="list">MA in International Relations, University of South Pacific
+                <li class="list">Exchange programme, North Atlantic College
+                <li class="list">BA in Politics, University of Diego Garcia
+            </ul>
+        </div>
+
+        <div class="btn">
+            <button class="contact button"> Contact me</button>
+        </div>
+
+    </div>
+    
+</div>
+
+
+<div class="main bottom">
+
+<div class="bottom-left">
+    <h3>
+        Areas of interest
+    </h3>
+
+    <div style="padding-top:8">
+        <ul>
+            <li class="list">EU Foreign and Security Policy
+            <li class="list">International Organisations (particularly the EU, UN and NATO and to a lesser extent GCC and IMF) 
+            <li class="list">Interaction in the field of global security, crisis management
+            <li class="list">diplomacy, peacekeeping/peacebuilding and global governance
+        </ul>
+    </div>
+
+</div>
+
+<div class="bottom-right">
+    
+    <div class="tabs">
+        <div class="tabs">
+            <h3 class="tablink w3-active" onclick="openCity(event, 'London')" style="margin-right: 30">thesis overview</h2>
+            <h3 class="tablink" onclick="openCity(event,'Paris')" style="margin-right: 30">publications</h2>
+            <h3 class="tablink" onclick="openCity(event,'Tokyo')" style="margin-right: 30">about me</h2>
+        </div>
+    </div>
+    
+    <div class="tab-content">
+        <div id="London" class="city">
+            
+            <p style="columns: 2 auto; line-height: 20px;">This article, co-authored with Giulia Tercovich, provides an in-depth analysis of the different factors that contributed to the political leadership of the first two Post-Lisbon Treaty High Representatives in setting up the European External Action Service (EEAS) and in advancing the EU's Crisis Management structures and institutions. 
+                The article is based on interviews with former political advisors, EEAS and Commission officials and national diplomats and seeks to shed light on the role of different leadership styles and political advisors in the EU foreign policy machinery. You can read the article</p>
+        </div>
+        
+        <div id="Paris" class="city" style="display:none">
+            
+            <p style="columns: 2 auto">Alexandra Novosseloff and I co-authord a new chapter on the challenges of creating a UN rapid reaction tool / UN Vanguard force. The chapter appeared in Yf Reykers' and John Karlsrud's new edited volume: "Multinational Rapid Response Mechanisms: From Institutional Proliferation to Institutional Exploitation". Alexandra Novosseloff and I co-authord a new chapter on the challenges of creating a UN rapid reaction tool / UN Vanguard force. The chapter appeared in Yf Reykers' and John Karlsrud's new edited volume: "Multinational Rapid Response Mechanisms: From Institutional Proliferation to Institutional Exploitation". Find out More... .</p> 
+        </div>
+        
+        <div id="Tokyo" class="city" style="display:none">
+            
+            <p style="columns: 2 auto">As a result of a collaborative research project that took 4 1/2 years and involved an inter-disciplinary team of 38 scholars and practitioners from 12 different countries, we are pleased that our Palgrave Handbook of Inter-organizational Relations in World Politics has been released in November 2016. Based on an initial authors' workshop I convened in January 2012 in Brussels ("Inter-organizationalism and International Relations: Theories and Cases") the aim of my Co-editor Rafael Biermann and myself was to contribute to the build up a network and theoretical approach within IR of like-minded scholars dealing with the political implications of inter-organizational cooperation, rivalry and impact between autonomous International Organisations.  We are grateful to all our contributors and colleagues and look forward to widening and deepening collaboration with anyone interested in the topic of relations between International Organisations in Global Politics.</p>
+        </div>
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-active";
+}
+    </script>
+
+<style>
+
+.columns-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90vw;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.w3-active {
+    padding-bottom: 5px;
+    
+    border-bottom: 1px solid black;
+    
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.tab {
+    margin-right: 30;
+    display:contents;
+    border: solid
+}
+
+p {
+font-family: 'NeueHaas';
+font-weight: normal;
+font-size: 16;
+line-height: 20px;
+}
+
+h2 {
+font-family: 'NeueHaas';
+font-weight: bold;
+font-size: 18;
+text-transform: uppercase;
+letter-spacing: 1;
+
+
+}
+
+h1 {
+font-family: 'NeueHaas';
+font-weight: bold;
+font-size: 32;
+text-transform: uppercase;
+letter-spacing: 1;
+
+}
+
+h3 {
+font-family: 'NeueHaas';
+font-weight: normal;
+font-size: 16;
+text-transform: uppercase;
+letter-spacing: 2;
+
+}
+
+
+@font-face {
+    font-family: NeueHaas;
+    src: url(./Fonts/NeueHaasDisplay-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: NeueHaas;
+    src: url(./Fonts/NeueHaasDisplay-Roman.woff);
+    font-weight: normal;
+}
+
+.content-box {
+    columns: 2 auto;
+    
+}
+
+.list {
+    margin-bottom: 5px;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 10%;
+
+}
+
+.contact {
+    font-family: 'NeueHaas';
+font-weight: bold;
+font-size: 16;
+text-transform: uppercase;
+letter-spacing: 1;
+}
+
+
+.button {
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem  ;
+    font-weight: bold;
+    background-color: black;
+    border-color: black;
+    color: white;
+    min-width: 100%;
+}
+
+.right{
+    padding-left: 40px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left{
+    filter: grayscale(1);
+    width: 50%;
+    height: 50vh;
+    background-image: url("photo-1489424731084-a5d8b219a5bb.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+}
+
+.bottom-left {
+    width: 35%;
+    height: 50vh;
+    
+}
+
+.bottom-right {
+
+    margin-left: 5%;
+    width:60%;
+    *border: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main {
+    width:90vw;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'NeueHaas';
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    
+}
+
+.bottom {
+
+    margin-top: 40px;
+}
+
+.h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    margin-bottom: 0.5rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    background-color: white;
+    border: hidden;
+    font-weight: bold;
+    font-family: 'NeueHaas';
+    
+}
+
+</style>
